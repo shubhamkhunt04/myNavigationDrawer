@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.navigation.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.navigation.ui.profile.profile"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/profile_fragment" />
+
+    <fragment
+        android:id="@+id/nav_trackOrder"
+        android:name="com.example.navigation.ui.trackOrder.trackOrder"
+        android:label="@string/menu_trackOrder"
+        tools:layout="@layout/track_order_fragment" />
+
+    <fragment
+        android:id="@+id/nav_addProduct"
+        android:name="com.example.navigation.ui.addProduct.addProduct"
+        android:label="@string/menu_addProduct"
+        tools:layout="@layout/add_product_fragment" />
+    <fragment
+        android:id="@+id/nav_vacation"
+        android:name="com.example.navigation.ui.vacation.vacation"
+        android:label="@string/menu_vacation"
+        tools:layout="@layout/vacation_fragment" />
+
+    <fragment
+        android:id="@+id/nav_subscription"
+        android:name="com.example.navigation.ui.subscription.subscription"
+        android:label="@string/menu_subscription"
+        tools:layout="@layout/subscription_fragment" />
+    <fragment
+        android:id="@+id/nav_help"
+        android:name="com.example.navigation.ui.help.help"
+        android:label="@string/menu_help"
+        tools:layout="@layout/help_fragment" />
+    <fragment
+        android:id="@+id/nav_contactus"
+        android:name="com.example.navigation.ui.contactus.contactus"
+        android:label="@string/menu_contactUs"
+        tools:layout="@layout/contactus_fragment" />
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.navigation.ui.logout.logout"
+        android:label="@string/menu_logout"
+        tools:layout="@layout/logout_fragment" />
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.example.navigation.ui.share.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.example.navigation.ui.send.SendFragment"
+        android:label="@string/menu_send"
+        tools:layout="@layout/fragment_send" />
+</navigation>
